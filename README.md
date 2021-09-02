@@ -4,8 +4,8 @@
 Install Chrome extension for best readin' this article.
 [Mardown viewer](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk)
 
-## Instalacia novej subdomeny
-1. vcreate new folder for subdomain `<subdomain-name>`  
+## New subdomain installation
+1. create new folder for subdomain `<subdomain-name>`  
 ```cli
 $ mkdir /var/www/<WEB>/sub/<subdomain-name>/
 ```
@@ -88,7 +88,7 @@ Configurate FTP access
 ```cli
 $ sudo vi /etc/vsftpd.conf
 ```
-> Push the I key for insert/type text / ctrl + C - exit from typing / type :wq for write&quit - save the changes and turn off the editor  
+> Push the **I** key for insert/type text / ctrl + C - exit from typing / type :wq for write&quit - save the changes and turn off the editor  
   
 ### */etc/vsftpd.conf*
 ```conf
